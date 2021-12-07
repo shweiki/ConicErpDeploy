@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0a553c"],{"09da":function(e,n,t){"use strict";t.r(n);var a=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("detail",{attrs:{"is-edit":!0}})},c=[],i=t("d41f"),l={name:"EditInvoice",components:{Detail:i["a"]}},s=l,o=t("2877"),u=Object(o["a"])(s,a,c,!1,null,null,null);n["default"]=u.exports}}]);
