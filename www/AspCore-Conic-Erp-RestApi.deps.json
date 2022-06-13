@@ -19,7 +19,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.5",
           "Microsoft.Extensions.Hosting.WindowsServices": "6.0.0",
-          "Microsoft.SqlServer.SqlManagementObjects": "161.47008.0",
+          "Microsoft.SqlServer.SqlManagementObjects": "161.47021.0",
           "NinjaNye.SearchExtensions": "3.0.1",
           "System.Data.SqlClient": "4.8.3",
           "System.Drawing.Common": "6.0.0",
@@ -204,7 +204,7 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
-      "Microsoft.Data.SqlClient/3.0.0": {
+      "Microsoft.Data.SqlClient/3.1.0": {
         "dependencies": {
           "Azure.Identity": "1.5.0",
           "Microsoft.Data.SqlClient.SNI.runtime": "3.0.0",
@@ -310,7 +310,7 @@
       },
       "Microsoft.EntityFrameworkCore.SqlServer/6.0.5": {
         "dependencies": {
-          "Microsoft.Data.SqlClient": "3.0.0",
+          "Microsoft.Data.SqlClient": "3.1.0",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.5"
         },
         "runtime": {
@@ -685,11 +685,11 @@
           }
         }
       },
-      "Microsoft.SqlServer.SqlManagementObjects/161.47008.0": {
+      "Microsoft.SqlServer.SqlManagementObjects/161.47021.0": {
         "dependencies": {
           "Azure.Core": "1.20.0",
           "Azure.Identity": "1.5.0",
-          "Microsoft.Data.SqlClient": "3.0.0",
+          "Microsoft.Data.SqlClient": "3.1.0",
           "Microsoft.Identity.Client": "4.35.0",
           "Microsoft.SqlServer.Assessment": "1.0.305",
           "Newtonsoft.Json": "13.0.1",
@@ -707,99 +707,99 @@
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.Tools.Sql.BatchParser.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.ConnectionInfo.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Dmf.Common.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Dmf.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.Assessment.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.Collector.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.CollectorEnum.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.HadrData.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.HadrModel.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.RegisteredServers.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.Sdk.Sfc.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.SqlScriptPublish.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.XEvent.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.XEventDbScoped.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.XEventDbScopedEnum.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Management.XEventEnum.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.PolicyEnum.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.ServiceBrokerEnum.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Smo.Notebook.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.Smo.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.SmoExtended.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.SqlEnum.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.SqlWmiManagement.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           },
           "lib/netcoreapp3.1/Microsoft.SqlServer.WmiEnum.dll": {
             "assemblyVersion": "16.200.0.0",
-            "fileVersion": "16.200.47008.0"
+            "fileVersion": "16.200.47021.0"
           }
         }
       },
@@ -2179,12 +2179,12 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
-    "Microsoft.Data.SqlClient/3.0.0": {
+    "Microsoft.Data.SqlClient/3.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MUauWfCLsZQQMUR/wZhec5MH6+NTPmPp9i/OsjIMmIu2ICYUGOVm1x7RTqKxq19UWxXMSG03/O0FyXQJrpDs9A==",
-      "path": "microsoft.data.sqlclient/3.0.0",
-      "hashPath": "microsoft.data.sqlclient.3.0.0.nupkg.sha512"
+      "sha512": "sha512-AcRD7+LW6fJQ7X18l5o1E9SBEMKrmz/ZgLajukUBLDRhm8TsazVU+dQ+bieNQJr8PEZMEajRnhN+NnMgi0kZEA==",
+      "path": "microsoft.data.sqlclient/3.1.0",
+      "hashPath": "microsoft.data.sqlclient.3.1.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient.SNI.runtime/3.0.0": {
       "type": "package",
@@ -2550,12 +2550,12 @@
       "path": "microsoft.sqlserver.assessment.authoring/1.0.282",
       "hashPath": "microsoft.sqlserver.assessment.authoring.1.0.282.nupkg.sha512"
     },
-    "Microsoft.SqlServer.SqlManagementObjects/161.47008.0": {
+    "Microsoft.SqlServer.SqlManagementObjects/161.47021.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+zWV8GNbKuWVKCbPj48jNKjuFsAZuZX7vObhr0J/TFz7ri9h3Lxm1uSPZZk58yVqNLaVpV6fptZUBQcV5Oj3Xg==",
-      "path": "microsoft.sqlserver.sqlmanagementobjects/161.47008.0",
-      "hashPath": "microsoft.sqlserver.sqlmanagementobjects.161.47008.0.nupkg.sha512"
+      "sha512": "sha512-dgnw6HVryoUUW0s1Stul9n2x/2okZp82O0qtU305kMxun8l8QW31CkmC8KHwA9JfNEOFt1AJtCJ3Ld186pVYwQ==",
+      "path": "microsoft.sqlserver.sqlmanagementobjects/161.47021.0",
+      "hashPath": "microsoft.sqlserver.sqlmanagementobjects.161.47021.0.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.3.0": {
       "type": "package",
