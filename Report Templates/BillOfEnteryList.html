@@ -57,13 +57,13 @@
 <td style="width: 15%; text-align: center;"><strong>الحالة</strong></td>
 </tr>
 <tr>
-<td style="width: 15%; text-align: center;">{{InventoryMovements.Id}}  {{InventoryMovements.Barcode}}</td>
+<td style="width: 15%; text-align: center;">{{InventoryMovements.Id}} {{InventoryMovements.Barcode}}</td>
 <td style="width: 25%; text-align: center;">{{InventoryMovements.Name}}</td>
 <td style="width: 10%; text-align: center;">{{InventoryMovements.Qty}}</td>
 <td style="width: 10%; text-align: center;">{{InventoryMovements.SellingPrice}}</td>
 <td style="width: 10%; text-align: center;">{{InventoryMovements.Total}}</td>
-<td style="width: 10%; text-align: center;">{#ToFixed({{InventoryMovements.SellingPrice}}*{{InventoryMovements.Qty}})/}</td>
-<td style="width: 10%; text-align: center;">{#ToFixed({{InventoryMovements.Qty}}*{{InventoryMovements.Total}})/}</td>
+<td style="width: 10%; text-align: center;">{#ToFixed({{InventoryMovements.SellingPrice}}*{{InventoryMovements.Total}})/}</td>
+<td style="width: 10%; text-align: center;">{#ToFixed({{InventoryMovements.Qty}}-{{InventoryMovements.Total}})/}</td>
 <td style="width: 10%; text-align: center;">{#Status({{InventoryMovements.Status}},'BillOfEntery')/}</td>
 </tr>
 </tbody>
